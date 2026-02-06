@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "images": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Witcher_3_cover_art.jpg/250px-Witcher_3_cover_art.jpg",
+    "title": "The Witcher 3: Wild Hunt",
+    "genre": "RPG",
+    "developer": "CD Projekt Red",
+    "year": 2015,
+    "platform": "PC",
+    "rating": 9.8
+  },
+  {
+    "id": 2,
+    "images": "https://upload.wikimedia.org/wikipedia/ru/b/bb/%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%BE%D0%B9_%D0%B8%D0%B3%D1%80%D1%8B_Cyberpunk_2077.jpg",
+    "title": "Cyberpunk 2077",
+    "genre": "Action RPG",
+    "developer": "CD Projekt Red",
+    "year": 2020,
+    "platform": "PC",
+    "rating": 8.5
+  },
+  {
+    "id": 3,
+    "images": "https://up2date.com.ua/image/catalog/easyphoto/3317/minecraftsuperm-jpg_1.jpg",
+    "title": "Minecraft",
+    "genre": "Sandbox",
+    "developer": "Mojang",
+    "year": 2011,
+    "platform": "PC",
+    "rating": 9.5
+  },
+  {
+    "id": 4,
+    "images": "https://upload.wikimedia.org/wikipedia/ru/thumb/d/db/Counter-strike_2.jpg/330px-Counter-strike_2.jpg",
+    "title": "Counter-Strike 2",
+    "genre": "Shooter",
+    "developer": "Valve",
+    "year": 2023,
+    "platform": "PC",
+    "rating": 8.9
+  },
+  {
+    "id": 5,
+    "images":"https://upload.wikimedia.org/wikipedia/ru/8/8e/%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_Dota_2.jpg",
+    "title": "Dota 2",
+    "genre": "MOBA",
+    "developer": "Valve",
+    "year": 2013,
+    "platform": "PC",
+    "rating": 9.0
+  },
+  {
+    "id": 6,
+    "images": "https://upload.wikimedia.org/wikipedia/ru/0/03/Red_Dead_Redemption_2_coverart.jpg",
+    "title": "Red Dead Redemption 2",
+    "genre": "Action",
+    "developer": "Rockstar Games",
+    "year": 2019,
+    "platform": "PC",
+    "rating": 9.7
+  },
+  {
+    "id": 7,
+    "images": "https://content.rockstarnews.ru/grantheftautov-3x.jpg",
+    "title": "GTA V",
+    "genre": "Action",
+    "developer": "Rockstar Games",
+    "year": 2015,
+    "platform": "PC",
+    "rating": 9.6
+  },
+  {
+    "id": 8,
+    "images": "https://m.media-amazon.com/images/M/MV5BYTc5Mjg1NjYtNzlhMi00MGZmLWIwMWMtZjE0OTc3MmM4OWE0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "title": "Stalker: Shadow of Chernobyl",
+    "genre": "Shooter",
+    "developer": "GSC Game World",
+    "year": 2007,
+    "platform": "PC",
+    "rating": 9.1
+  },
+  {
+    "id": 9,
+    "images": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Valorant_cover.jpg/250px-Valorant_cover.jpg",
+    "title": "Valorant",
+    "genre": "Tactical Shooter",
+    "developer": "Riot Games",
+    "year": 2020,
+    "platform": "PC",
+    "rating": 8.8
+  },
+  {
+    "id": 10,
+    "images": "https://upload.wikimedia.org/wikipedia/ru/thumb/7/7c/Elden_Ring_-_cover.jpg/330px-Elden_Ring_-_cover.jpg",
+    "title": "Elden Ring",
+    "genre": "Action RPG",
+    "developer": "FromSoftware",
+    "year": 2022,
+    "platform": "PC",
+    "rating": 9.9
+  }
+]
