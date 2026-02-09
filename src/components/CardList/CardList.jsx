@@ -1,3 +1,5 @@
+import style from "./CardList.module.css"
+
 export const CardList = ({children})=> {
-    return <ul>{children}</ul> 
+    return <ul className={style.list}>{children}</ul> 
 }
