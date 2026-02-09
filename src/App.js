@@ -1,3 +1,5 @@
+import "modern-normalize";
+
 import { Section } from './components/Section/Section';
 import { Tittle } from './components/Tittle/Tittle';
 import { CardList } from './components/CardList/CardList';
