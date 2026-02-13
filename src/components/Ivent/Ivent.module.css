@@ -44,3 +44,12 @@
   color: chartreuse;
   font-style: italic;
 }
+
+
+.online {
+  color: green;
+}
+
+.ofline {
+  color: red;
+}

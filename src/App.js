@@ -7,10 +7,13 @@ import { Ivent } from './components/Ivent/Ivent';
 import './App.css';
 import games from "./games.json"
 import { Button } from "./components/Button/Button";
+import SubTitle from "./SubTitle/SubTitle";
+
 function App() {
   return (
     <Section>
       <Tittle text="Найпопулярніші ігри" />
+      <SubTitle text="Може навіть найкраші"/>
       <CardList>
         <Ivent props={games} />
       </CardList>

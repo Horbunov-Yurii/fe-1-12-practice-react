@@ -7,7 +7,8 @@
     "developer": "CD Projekt Red",
     "year": 2015,
     "platform": "PC",
-    "rating": 9.8
+    "rating": 9.8,
+    "isOnline": true
   },
   {
     "id": 2,
@@ -17,7 +18,8 @@
     "developer": "CD Projekt Red",
     "year": 2020,
     "platform": "PC",
-    "rating": 8.5
+    "rating": 8.5,
+    "isOnline": false
   },
   {
     "id": 3,
@@ -27,7 +29,8 @@
     "developer": "Mojang",
     "year": 2011,
     "platform": "PC",
-    "rating": 9.5
+    "rating": 9.5,
+    "isOnline": false
   },
   {
     "id": 4,
@@ -37,7 +40,8 @@
     "developer": "Valve",
     "year": 2023,
     "platform": "PC",
-    "rating": 8.9
+    "rating": 8.9,
+    "isOnline": false
   },
   {
     "id": 5,
@@ -47,7 +51,8 @@
     "developer": "Valve",
     "year": 2013,
     "platform": "PC",
-    "rating": 9.0
+    "rating": 9.0,
+    "isOnline": true
   },
   {
     "id": 6,
@@ -57,7 +62,8 @@
     "developer": "Rockstar Games",
     "year": 2019,
     "platform": "PC",
-    "rating": 9.7
+    "rating": 9.7,
+    "isOnline": true
   },
   {
     "id": 7,
@@ -67,7 +73,8 @@
     "developer": "Rockstar Games",
     "year": 2015,
     "platform": "PC",
-    "rating": 9.6
+    "rating": 9.6,
+    "isOnline": true
   },
   {
     "id": 8,
@@ -77,7 +84,8 @@
     "developer": "GSC Game World",
     "year": 2007,
     "platform": "PC",
-    "rating": 9.1
+    "rating": 9.1,
+    "isOnline": false
   },
   {
     "id": 9,
@@ -87,7 +95,8 @@
     "developer": "Riot Games",
     "year": 2020,
     "platform": "PC",
-    "rating": 8.8
+    "rating": 8.8,
+    "isOnline": false
   },
   {
     "id": 10,
@@ -97,6 +106,7 @@
     "developer": "FromSoftware",
     "year": 2022,
     "platform": "PC",
-    "rating": 9.9
+    "rating": 9.9,
+    "isOnline": true
   }
 ]
