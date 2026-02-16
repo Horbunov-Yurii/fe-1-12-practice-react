@@ -1,5 +1,6 @@
 import style from "./Ivent.module.css";
 import clsx from "clsx";
+import { Text } from "./Ivent.style";
 
 export const Ivent = ({ props }) => {
   return (
@@ -31,14 +32,15 @@ export const Ivent = ({ props }) => {
                 [style.online] : isOnline,
                 [style.ofline] : !isOnline
               })}>{isOnline ? "Online" : "Ofline"}</p> */}
-              <p
+              {/* <p
                 className={clsx(
                   style.desk,
                   isOnline ? style.online : style.ofline,
                 )}
               >
                 {isOnline ? "Online" : "Ofline"}
-              </p>
+              </p> */}
+              <Text status={isOnline ? "Online" : "Ofline"}>{isOnline ? "Online" : "Ofline"}</Text>
             </li>
           );
         },

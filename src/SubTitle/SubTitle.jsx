@@ -1,6 +1,7 @@
+import { UnderTitle } from "./SubTitle.style"
 function SubTitle({text}) {
     return (
-        <h2>{text}</h2>
+        <UnderTitle>{text}</UnderTitle>
     )
 }
 
