@@ -1,7 +1,7 @@
 import style from "./Ivent.module.css";
 import clsx from "clsx";
 import { Text } from "./Ivent.style";
-
+import {formatIventStart} from "../../utils/formatIventStart";
 export const Ivent = ({ props }) => {
   return (
     <>
@@ -16,7 +16,9 @@ export const Ivent = ({ props }) => {
           platform,
           rating,
           isOnline,
+          time
         }) => {
+          const formatStart = formatIventStart(time.start)
           return (
             <li key={id} className={style.item}>
               <img src={images} alt={title} className={style.img} />
@@ -28,6 +30,8 @@ export const Ivent = ({ props }) => {
               </time>
               <p className={style.desk}>{platform}</p>
               <p className={style.description}>{rating}</p>
+              <p>{formatStart}</p>
+              <p>{time.end}</p>
               {/* <p className={clsx(style.desk, {
                 [style.online] : isOnline,
                 [style.ofline] : !isOnline
