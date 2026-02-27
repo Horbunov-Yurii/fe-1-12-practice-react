@@ -7,6 +7,7 @@ import { Ivent } from './components/Ivent/Ivent';
 import './App.css';
 import games from "./games.json"
 import { Button } from "./components/Button/Button";
+import { Counter } from "./components/Counter/Counter";
 import SubTitle from "./components/SubTitle/SubTitle";
 
 
@@ -44,6 +45,7 @@ function App() {
         <Button text="Warning" info /> */}
         <Button text="Hello world"/>
       </Section>
+      <Counter initialSate = {0} />
     </>
   );
 }
