@@ -9,6 +9,7 @@ import games from "./games.json"
 import { Button } from "./components/Button/Button";
 import { Counter } from "./components/Counter/Counter";
 import SubTitle from "./components/SubTitle/SubTitle";
+import { TaskList } from "./components/TaskList/TaskList";
 
 
 
@@ -45,7 +46,8 @@ function App() {
         <Button text="Warning" info /> */}
         <Button text="Hello world"/>
       </Section>
-      <Counter initialSate = {0} />
+      <Counter initialSate={0} />
+      <TaskList />
     </>
   );
 }
