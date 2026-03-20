@@ -10,6 +10,7 @@ import { Button } from "./components/Button/Button";
 import { Counter } from "./components/Counter/Counter";
 import SubTitle from "./components/SubTitle/SubTitle";
 import { TaskList } from "./components/TaskList/TaskList";
+import { FormInfo } from "./components/FormInfo/FormInfo";
 
 
 
@@ -35,6 +36,7 @@ function App() {
   return (
     <>
       <GlobalStyle />
+      <FormInfo />
       <Section>
         <Tittle text="Найпопулярніші ігри" />
         <SubTitle text="Може навіть найкраші" />

@@ -1,6 +1,6 @@
 // import "./Tittle.css"//підключення звичайного css
 import style from "./Tittle.module.css"
-console.log(style);
+// console.log(style);
 
 
 export const Tittle = ({ text }) => {
